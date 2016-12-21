@@ -1,0 +1,18 @@
+<template name="cell">
+    <navigator url="../detail/detail?imageSrc={{item.imgsrc}}&title={{item.title}}&introduce={{item.introduce}}&author={{item.author}}&rank={{item.rank}}">
+            <view class="cell" bindtap="cellClick">
+                <view class="imageView">
+                    <image src="{{item.imgsrc}}" class="image"></image>
+                </view>
+                <view class="contentView">
+                    <text class="title">{{item.title}}</text>
+                    <text class="introduce">{{item.introduce}}</text>
+                    <text class="author">{{item.author}}</text>
+                </view>
+                <view class="startView">
+                    <view class="start">{{item.rank}}</view>
+                </view>
+            </view>
+    </navigator>
+    
+</template>

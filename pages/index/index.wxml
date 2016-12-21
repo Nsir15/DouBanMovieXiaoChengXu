@@ -1,0 +1,11 @@
+<!--导入cellcell 模板-->
+<import src="../../template/cell.wxml" />
+<!--页面布局-->
+<view container>
+    <view class="header">
+    豆瓣电影TOP250
+    </view>
+    <block wx:for="{{moivelist}}">
+        <template is="cell" data="{{item}}" />
+    </block>
+</view>

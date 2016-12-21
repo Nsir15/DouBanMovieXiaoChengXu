@@ -1,0 +1,32 @@
+{
+    "pages": [
+      "pages/index/index",
+      "pages/ticket/ticket", 
+      "pages/detail/detail" 
+    ],
+    "window": {
+      "navigationBarBackgroundColor":"#3aaf4f",
+      "navigationBarTextStyle": "white",
+      "navigationBarTitleText": "豆瓣电影",
+      "backgroundTextStyle": "light",
+      "enablePullDownRefresh": false
+    },
+    "tabBar": {
+        "backgroundColor": "#3aaf4f",
+        "color":"black",
+        "selectedColor":"white",
+        "borderStyle": "white",
+      "list": [{
+        "pagePath": "pages/index/index",
+        "text": "推荐电影",
+        "iconPath": "images/board.png",
+        "selectedIconPath": "images/board-actived.png"
+      },
+      {
+        "pagePath": "pages/ticket/ticket",
+        "text": "北美票房",
+        "iconPath": "images/note.png",
+        "selectedIconPath": "images/note-actived.png"
+      }]
+    }
+}

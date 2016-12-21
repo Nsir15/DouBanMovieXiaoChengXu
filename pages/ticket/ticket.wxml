@@ -1,0 +1,7 @@
+<!--pages/ticket/ticket.wxml-->
+<import src="../../template/cell.wxml" />
+<view class="container">
+    <block wx:for="{{moivelist}}">
+        <template is="cell" data="{{item}}" />
+    </block>
+</view>

@@ -1,0 +1,64 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+/*电影top的css*/
+.header{
+    text-align: center;
+    height: 100rpx;
+    line-height: 100rpx;
+    background: lightgray;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+/*cell css-start*/
+.cell{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10rpx;
+}
+.imageView{
+    width: 150rpx;
+    height: 150rpx;
+    padding: 20rpx;
+}
+.image{
+    width: 100%;
+    height: 100%;
+}
+.contentView{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1;
+    padding: 0px;
+}
+.title{
+    font-size: 16px;
+    font-weight: bold;
+}
+.introduce{
+    font-size: 14px;
+    color: lightgray;
+    margin-top: 15rpx;
+}
+.author{
+    font-size: 15px;
+    color: lightgrey;
+    margin-top: 15rpx;
+}
+.startView{
+    width: 60rpx;
+    height: 150rpx;
+    /*background: orange;*/
+    /*line-height: 150rpx;*/
+    padding: 5px;
+}
+.start{
+    color: orangered;
+}
+/*cell css-end*/

@@ -1,0 +1,12 @@
+<!--pages/detail/detail.wxml-->
+<view class="container">
+    <view class="detailImage">
+        <image src="{{item.imageSrc}}" class="image"></image>
+    </view>
+    <view class="titleView" style="margin-top:20rpx;margin-bottom:20rpx">
+        <text style="font-size:20px;">{{item.title}}</text>
+    </view>
+    <view class="detailStart">评分{{item.rank}}分</view>
+    <view class="author">导演:{{item.author}}</view>
+    <view class="introduce">主演:{{item.introduce}}</view>
+</view>

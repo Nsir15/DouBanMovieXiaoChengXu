@@ -1,0 +1,11 @@
+/* pages/detail/detail.wxss */
+Page{
+    background: lightslategrey;
+}
+.detailImage{
+    margin-top: 40rpx;
+    width: 400rpx;
+    height: 400rpx;
+    background: orange;
+}
+
